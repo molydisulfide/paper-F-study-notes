@@ -3,6 +3,7 @@
 \input{macros}
 \input{letterfonts}
 \usepackage{adforn}
+\usepackage{graphicx}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{mathtools}
@@ -63,6 +64,12 @@ The \textbf{Patent Cooperation Treaty} (PCT) is an international patent law trea
 
 \p Signed on March 20, 1883. \n
 
+\begin{figure}[htbp] % h=here, t=top, b=bottom, p=page: Platzierungs-Optionen
+  \centering
+  \includegraphics[width=0.6\textwidth]{images/Fig_1.jpg} % Pfad und Dateiname anpassen
+  \caption{--- \textbf{\textsc{PCT Hierarchy}}}
+\end{figure}
+
 \p Agreement between countries for mutual recognition of IP rights. Nationals of Signatory Countries enjoy the same rights in other States as nationals of those other States. \n
 
 \p It secured \textbf{the right of priority} of a first filing in one State for subsequent applications in other States. \n
@@ -88,7 +95,16 @@ The \textbf{Patent Cooperation Treaty} (PCT) is an international patent law trea
 \]}} 
 \vspace{5mm}
 
-\p lorem ipsum \n
+\p The PCT timeline for a PCTa claiming priority from a national application: 
+
+\newpage
+\begin{figure}[htbp] % h=here, t=top, b=bottom, p=page: Platzierungs-Optionen
+  \centering
+  \includegraphics[width=0.85\textwidth]{images/Fig_2.jpg} % Pfad und Dateiname anpassen
+  \caption{--- \textbf{\textsc{PCT Timeline}}}
+\end{figure}
+
+\newpage
 
 \chapter{Fillun Homework Questions}
 
@@ -174,29 +190,34 @@ The \textbf{Patent Cooperation Treaty} (PCT) is an international patent law trea
     \item % Question 2
     An international application is filed at the Japanese National Office. The applicant first mentioned in the Request [PCT/RO/101] is a Taiwanese national resident in Taiwan. The second applicant is a Korean national resident in Korea and the third applicant is a Japanese national resident in Japan. The three applicants have not appointed a common agent or a common representative.
     \begin{enumerate}[label=(\alph*)]
-        \item Who will be considered to be the common representative of the applicants?
-        \item Would your answer to question (a) have been different if the international application had been filed at the International Bureau?
-        \item Which acts may not be performed by the representative in question (a)?
-        \item Which acts may not be performed by an agent appointed by the representative in question (a)?
+        \item According to \textbf{Rule 90}, the first Applicant named in the Request entitled to file a PCTa with an rO will become the common representative. In this case, this should be the Korean national.
+        \item No?
+        \item The common representative may not sign any notice of withdrawal [under \textbf{R. 90\textit{bis}}], i.e.: withdrawal of application, designation, priority claim, supplementary search request, demand or election. Also, \textbf{not sure}, but it seems like he cannot perform an act in relation to only one Applicant or a subset of Applicants when there are multiple Applicants. 
+        \item The common agent may not file a PCTa without signature of the Applicant/s [\textbf{R. 4.15}] and cannot make declarations as to entitlement on behalf of the Applicant/s [\textbf{R. 4.17}].
     \end{enumerate}
 
     \item % Question 3
     Today, 16 March 2020, the applicant discovers an obvious mistake in the description of his international application filed on Friday 9 March 2018 as a first filing.
     \begin{enumerate}[label=(\alph*)]
-        \item Can this obvious mistake be corrected? If so, what are the conditions?
-        \item Who is competent to rectify the obvious mistake? What if the mistake is only detected after a demand for international preliminary examination has been made?
-        \item What parts of the international application are taken into account upon correcting the mistake?
-        \item When at the latest can a request for rectification be filed?
-        \item Would your answer have been different if the applicant had discovered an obvious mistake in the abstract of his international application?
+        \item Yes --- under \textbf{Rule 91.2}, there is a 26 month-deadline for correction of obvious mistakes. In this case, we have 24 months + 7 days.
+        \item The Applicant (or his agent) are competent. After demand, the IPEA is the Competent Authority to be addressed. Notably, the dO/eO need not take rectification into account if processing/examination started prior to the notification [\textbf{R. 91.3(e)}] and the dO/eO may disregard an authorized notification if it finds it would not have authorized it itself had it been the Competent Authority [\textbf{R. 91.1(f)}].
+        \item For mistakes in the claims, description or drawings (or corrections thereof), only the claims, description and drawings (and corrections thereof) will be taken into account [\textbf{R. 91.1(d)}]. 
+        For mistakes in the Request (or corrections thereof), the contents of the whole PCTa including priority documents, corrections, etc., will be taken into account [\textbf{R. 91.1(e)}].
+        \item 26 months after the priority date.
+        \item Yes. Abstract mistakes may not be corrected under \textbf{Rule 91.1(g)}. They may be corrected under [\textbf{R. 38.3}] within \textbf{1 month} after the date of mailing of ISR by submission of corrections to the ISA.
     \end{enumerate}
 
     \item % Question 4
     Is it possible to file third party observations in relation to an international application during the international phase? If so, where and how can these be filed?
 
+
+      Third party observations may be submitted at any time \textbf{after the date of publication} of the international application \underline{and} \textbf{before the expiration of 28 months from the priority date}, provided that the application is not withdrawn or considered withdrawn.
+      
+      
     \item % Question 5
     A Danish applicant filed an international application PCT-DK as a first filing on 25 May 2025 with the EPO as receiving Office. Due to cash-flow problems, no fees were paid upon filing. On 30 June 2025, the EPO issues an invitation to pay the missing fees together with a late-payment surcharge.
 
-    \vspace{1em}
+ 
     Indicate True/False:
     \begin{enumerate}[label=(\alph*)]
         \item If the applicant has, in fact, paid the fees due at filing on 27 June 2025, the payment will be considered in time.
